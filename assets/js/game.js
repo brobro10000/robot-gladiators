@@ -50,6 +50,9 @@ var fight = function(enemyName) {
         
             // pass the pickedEnemyName variable's value into the fight function, where it will assume the value of the enemyName parameter
             fight(pickedEnemyName);
+          } else {
+              window.alert("You have lost your robot in battle! Game Over!");
+              break;
           }
         window.alert(enemyName + ' has died!');
   
